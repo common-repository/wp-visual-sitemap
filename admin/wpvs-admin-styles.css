@@ -1,0 +1,48 @@
+.wpvs_label {
+	font-weight: bold;
+}
+
+#wpvs_fa_chosen_icon {
+	font-size: 30px;
+    vertical-align: bottom;
+}
+
+@media screen and (min-width: 700px) {
+	
+	#wpvs_options_table {
+		width: 50%;
+		float: left;
+	}
+
+	#wpvs_preview {
+		float: left;
+		width: 45%;
+		margin-left: 5%;
+		margin-top: 30px;
+	}
+
+	.wpvs_wrap .submit {
+	clear: both;
+	}
+
+}
+
+.wpvs_preview_wrapper {
+	background: #FFF;
+	border-radius: 5px;
+	padding: 30px;
+	max-width: 200px;
+	margin-top: 10px;
+}
+
+input[name=font_size] {
+	width: 60px;
+}
+
+.wpvs_preview_wrapper ul.wpvs_wrapper li > a span.no_icons {
+	width: 100%;
+}
+
+.changing_background ul.wpvs_wrapper li a {
+	transition: none;
+}
